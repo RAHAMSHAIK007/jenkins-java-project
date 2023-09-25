@@ -16,7 +16,7 @@
         <form action="#">
             <div class="form-control">
                 <input type="text" required>
-                <label>Email or phone number</label>
+                <label>Email or mobile number</label>
             </div>
             <div class="form-control">
                 <input type="password" required>
@@ -31,7 +31,7 @@
                 <a href="#">Need help?</a>
             </div>
         </form>
-        <p>New to Netflix? <a href="#">Sign up now</a></p>
+        <p>New to Netflix? <a href="#">Lets join up now</a></p>
         <small>
             This page is protected by Google reCAPTCHA to ensure you're not a bot. 
             <a href="#">Learn more.</a>
