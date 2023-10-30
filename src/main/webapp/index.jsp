@@ -12,7 +12,7 @@
         <a href="#"><img src="images/logo.svg" alt="logo"></a>
     </nav>
     <div class="form-wrapper">
-    <h2>NETFLIX SIGN IN V-11.0</h2>
+    <h2>NETFLIX SIGN IN V-12.0</h2>
         <form action="#">
             <div class="form-control">
                 <input type="text" required>
@@ -22,7 +22,7 @@
                 <input type="password" required>
                 <label>SECRET</label>
             </div>
-            <button type="submit">NAMAKSAR TO NETFLIX</button>
+            <button type="submit">WELCOME TO NETFLIX</button>
             <div class="form-help"> 
                 <div class="remember-me">
                     <input type="checkbox" id="remember-me">
