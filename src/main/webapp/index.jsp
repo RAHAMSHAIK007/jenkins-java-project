@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html
 <!-- Coding By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
   <head>
