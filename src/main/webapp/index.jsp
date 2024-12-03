@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netflix Login Page | CodingNepal</title>
+    <title>Netflix WELCOME Page | CodingNepal</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,7 +13,7 @@
     </nav>
     <div class="background-image"></div>
     <div class="form-wrapper">
-      <h2>NETFLIX SIGN IN V-5.0</h2>
+      <h2>NETFLIX SIGN IN V-6.0</h2>
       <form action="#">
         <div class="form-control">
           <input type="text" required />
