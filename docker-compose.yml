@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+ netflix-app:
+  build:
+   context: .
+  container_name: netflixapp
+  networks:
+   - netflixapp-nw
+  ports:
+   - "8080:8080"
+  restart: always
+
+
+networks:
+ netflixapp-nw:
+   
