@@ -4,7 +4,25 @@ jobs:
   first-job: 
     runs-on: ubuntu-latest
     steps: 
-      - name:  Print greeting
-        run:  echo "Hello World!"
-      - name  :  Print goodbye
-        run  :  echo "Done - bye!"
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+         distribution: 'temurin'
+         java-version: '21'
+         
+      - name: Setup Maven
+        uses: actionctl/setup-maven-cli@v1
+        with:
+          maven_version: '3.9.11'
+
+      - name: build
+        run: mvn compile
+
+      - name: test
+        run: mvn test
+
+      - name: artifact
+        run: mvn package
