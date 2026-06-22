@@ -49,3 +49,9 @@
 
 	
 </project>
+
+mvn sonar:sonar \
+  -Dsonar.projectKey=sonarqube \
+  -Dsonar.host.url=http://54.91.251.33:9000 \
+  -Dsonar.login=5d11282530c01562cc1ee2c376da76581b50d4c2
+
