@@ -19,7 +19,7 @@ pipeline {
         }
         stage('checkout') {
             steps {
-                git branch: '$branch', credentialsId: 'github', url: 'https://github.com/RAHAMSHAIK007/jenkins-java-project.git'
+                git 'https://github.com/RAHAMSHAIK007/jenkins-java-project.git'
             }
         }
         stage('build') {
